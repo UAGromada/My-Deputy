@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<translate xmlns:android="http://schemas.android.com/apk/res/android"
+	           android:duration="@android:integer/config_longAnimTime"
+	           android:fromXDelta="0%p"
+	           android:toXDelta="-90%p" />
+</set><!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/anim/button_animation_slide_left_out_offset.xml -->

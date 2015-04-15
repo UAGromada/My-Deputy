@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/item_background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/item_title"
+                android:textColor="@color/secondary_dark"
+                android:maxLines = "1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="text"
+                android:maxLines = "1"
+                android:textColor="@color/secondary" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/item_data"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/main_light" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:visibility="invisible"
+        android:background="@color/secondary_light"
+        android:id="@+id/item_divider"></FrameLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/layout/simple_item_two_lines_date.xml -->

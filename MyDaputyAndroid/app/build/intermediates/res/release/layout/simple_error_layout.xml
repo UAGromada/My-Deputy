@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/secondary_light">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/ic_alert_error"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/load_error"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/load_retry"
+        android:id="@+id/error_retry"
+        android:layout_gravity="right"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/transparent"
+        android:textColor="@drawable/text_main_color"/>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/shadow_bottom"></FrameLayout>
+</LinearLayout><!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/layout/simple_error_layout.xml -->

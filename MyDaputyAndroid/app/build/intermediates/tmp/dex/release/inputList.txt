@@ -1,0 +1,11 @@
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/classes/release
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/support-annotations-21.0.0-f9edf281785129a126828da090b7dbd9de3772f3.jar
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/classes-82ceae549caabec921c02650f23339c51ee6438f.jar
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/library-1.0.10-6fd27095be5cae6fdfcf1df368d7d3f6322ca413.jar
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/library-2.4.0-967e1cae8105d681f66c0722cea5ef615784aa74.jar
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/picasso-2.4.0-102b40a284b8cbdbd5a36fec379e3084443a04c4.jar
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/internal_impl-21.0.0-1e4a922b1b0ca178772b78577cec2bc0b3ba7084.jar
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/gson-2.2.4-cf148dfa51c723797d626b19f3cb31671903097c.jar
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/classes-defe597838ee870a361b8dc32dedefdc8bad5008.jar
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/classes-6be8ae3f4e1b5ef3a656bc431c656456a5dc95d7.jar
+/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/build/intermediates/pre-dexed/release/classes-3e166e1167c2e0938f488ae8b7f36b2aeea9b3d0.jar

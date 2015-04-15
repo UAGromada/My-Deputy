@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/deputy_appeals_rate_appeals_item_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:paddingBottom="16dp"
+    android:paddingLeft="72dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:textAppearance="?android:attr/textAppearanceMedium" />

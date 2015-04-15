@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Мій Депутат</string>
+    <string name="button_register_text">Регістрація</string>
+    <string name="text_register">Регістрація</string>
+    <string name="progress_text_register">Регістрація...</string>
+    <string name="text_login">Вхід</string>
+    <string name="progress_text_login">Вхід...</string>
+    <string name="text_not_registered">Створити новий аккаунт</string>
+    <string name="button_login_text">УВІЙТИ</string>
+
+    <string name="text_email">Email</string>
+    <string name="text_password">Пароль</string>
+    <string name="text_full_name">Ім\'я та прізвище</string>
+    <string name="text_office">Адреса офісу</string>
+    <string name="text_phone_number">Номер телефона</string>
+
+    <string name="text_deputy_program">Текст программи</string>
+    <string name="text_deputy_promises">Текст обіцянок</string>
+
+    <string name="button_reg_text">ЗАРЕЄСТРУВАТИСЯ</string>
+    <string name="radio_text_deputy">Я депутат</string>
+    <string name="radio_text_citizen">Я громадянин</string>
+    <string name="text_has_account">Я вже зареєстрований! Увійти.</string>
+    <string name="text_section_name">Назва партії</string>
+    <string name="text_alert_user_not_selected">Ви депутат чи громадянин?</string>
+    <string name="deputy_info_windowheadertext">Інформація про депутата</string>
+    <string name="deputy_info_program_tab">Програма депутата</string>
+    <string name="deputy_info_promises_tab">Обіцянки депутата</string>
+    <string name="deputy_info_current_activities_tab">Поточна діяльність</string>
+    <string name="deputy_info_contacts_tab">Контакти</string>
+    <string name="deputy_single_news_addcomment_text">Додати коментар</string>
+    <string name="deputy_single_news_wait_text">Зачекайте, поки завантажується текст новини та коментарі...</string>
+    <string name="deputy_single_news_comment_default_text">Текст коментарю</string>
+    <string name="deputy_single_news_comment_default_name">Ім\'я</string>
+    <string name="deputy_quiz_list_windowheader_text">Опитування</string>
+    <string name="deputy_quiz_list_wait_text">Зачекайте завантаження списку опитувань...</string>
+    <string name="deputy_appeals_add_appeal">Додати звернення</string>
+    <string name="deputy_appeals_my_appeals">Мої звернення</string>
+    <string name="deputy_appeals_rate_appeals">Оцінка звернень</string>
+    <string name="create_text">СТВОРИТИ</string>
+    <string name="appeal_reject_text">ВІДХИЛИТИ</string>
+    <string name="deputy_appeals_rate_button_text">Оцінити</string>
+    <string name="appeals_text">Звернення</string>
+    <string name="quiz_text">Опитування</string>
+    <string name="my_activity_text">Моя діяльність</string>
+    <string name="all_appeals_text">Всі звернення</string>
+    <string name="new_appeals_text">Перегляд нових</string>
+    <string name="view_text">Переглянути</string>
+    <string name="view_voter_info_text">Інфо виборця</string>
+    <string name="accept_text">ПРИЙНЯТИ</string>
+    <string name="in_process_text">В процесі</string>
+    <string name="finished_text">Закінчені</string>
+    <string name="remove_text">Видалити</string>
+    <string name="add_news_text">Додати новину</string>
+    <string name="view_news_comments_text">Переглянути коментарі</string>
+    <string name="add_variants_text">Додати варіанти</string>
+    <string name="finish_date_text">Дата закінчення</string>
+    <string name="back_text">НАЗАД</string>
+    <string name="enter_next_variant_text">Введіть текст варіанту </string>
+    <string name="btn_choose">ОБРАТИ</string>
+    <string name="txt_information_deputy">Інформація</string>
+    <string name="txt_appeal">Звернення</string>
+    <string name="txt_quiz">Опитування</string>
+    <string name="txt_quiz_new">Новe опитування</string>
+    <string name="txt_quiz_in_process">В процесі</string>
+    <string name="txt_quiz_finished">Закінчені</string>
+    <string name="txt_news">Моя діяльність</string>
+
+    <string name="txt_quiz_title">Заголовок опитування</string>
+    <string name="txt_quiz_text">Текст опитування</string>
+    <string name="txt_quiz_create">Сворити</string>
+    <string name="txt_quiz_end_date">Дата закінчення</string>
+    <string name="txt_quiz_add_variant">варіант</string>
+    <string name="txt_quiz_review">Переглянути</string>
+    <string name="txt_quiz_variant">Варіанти відповідей:</string>
+    <string name="txt_quiz_variant_error">Будьласка введіть текст варіанту</string>
+    <string name="txt_quiz_title_error">Будьласка введіть заголовок опитування</string>
+    <string name="txt_quiz_text_error">Будьласка введіть текст опитування</string>
+    <string name="txt_quiz_variant_number_error">Будьласка два або більше варіантів відповіді</string>
+    <string name="txt_quiz_date_error">Будьласка додайте дату закінчення голосування</string>
+    <string name="party_error">Поле партія обов\'язкове для заповнення</string>
+    <string name="password_error">Будьласка заповність поре пароль</string>
+    <string name="name_error">Поле ім\'я обов\'язкове для заповнення</string>
+    <string name="email_error">Будьласка заповніть поле пошта</string>
+    <string name="role_error">оберіть вашу соціальну роль</string>
+
+    <string name="txt_appeal_new">Нові</string>
+    <string name="txt_appeal_accepted">Прийняті</string>
+    <string name="txt_appeal_info_user">Інформація про виборця</string>
+    <string name="txt_appeal_chooser">Оберіть відповідального:</string>
+
+
+    <string name="txt_save">ЗБЕРЕГТИ</string>
+    <string name="txt_cancel">ВІДМІНИТИ</string>
+    <string name="txt_close">ЗАКРИТИ</string>
+
+    <string name="txt_main_info">Основна інформація</string>
+    <string name="txt_citizen_info">Інформація про виборця</string>
+
+    <string name="txt_news_new_title">Заголовок новини</string>
+    <string name="txt_news_new_text">Текст новини</string>
+    <string name="txt_error_all">Усі поля обов\'язкові для заповнення</string>
+    <string name="txt_comments">Коментарі:</string>
+
+    <string name="txt_citizen_appeal_new_title">Заголовок звернення</string>
+    <string name="txt_citizen_appeal_new_text">Текст звернення</string>
+    <string name="txt_citizen_appeal_new_">Нове звернення</string>
+
+    <string name="txt_load_register">Реєстрація...</string>
+    <string name="txt_load_login">Авторизація...</string>
+    <string name="txt_load">Завантаження...</string>
+    <string name="txt_load_create_appeal">Створення нового звернення..</string>
+    <string name="txt_load_create_news">Завантаження новини..</string>
+    <string name="txt_load_create_quiz">Створення нового опитування..</string>
+    <string name="txt_load_news">Завантаження новини..</string>
+    <string name="txt_load_quiz">Завантаження опитування..</string>
+    <string name="txt_load_citizen_info">Завантаження информації про виборця..</string>
+    <string name="txt_load_citizen_comments">Завантаження коментарів..</string>
+    <string name="txt_load_deputy_info">Завантаження інформації про депутата..</string>
+
+    <string name="txt_create_news">Додати новини</string>
+    <string name="txt_create_quiz">Додати звернення</string>
+    <string name="txt_stay_login">Зберегти</string>
+
+    <string name="txt_deputyList_empty">Тут буде відображатись список депутатів</string>
+    <string name="txt_appealList_empty">Тут буде відображатися список запитів Вашому депутату</string>
+
+
+    <string name="title_deputy_list">Список депутатів</string>
+    <string name="title_deputy_news">Новини</string>
+    <string name="title_deputy_info">Основна інформація</string>
+    <string name="title_deputy_appeals">Звернення</string>
+    <string name="title_deputy_quiz">Опитування</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="comment_sending">відправка</string>
+    <string name="comment_error">помилка</string>
+
+    <string name="load_retry">Повторити</string>
+    <string name="load_error">Не вдалося зеднатися з сервером, перевірте підключення до інтернету.</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/deputy_appeal_review"
+        android:icon="@drawable/ic_action_action_done"
+        android:title="@string/txt_quiz_review"
+        app:showAsAction="always" />
+    <item android:id="@+id/deputy_appeal_info"
+        android:icon="@drawable/ic_action_action_done"
+        android:title="@string/txt_appeal_info_user"
+        app:showAsAction="always" />
+</menu>

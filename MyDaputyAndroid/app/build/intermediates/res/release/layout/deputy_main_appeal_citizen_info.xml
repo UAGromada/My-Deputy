@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/deputy_appeal_citizen_info_info_img"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/ic_action_account_circle" />
+
+        <TextView
+            android:id="@+id/deputy_appeal_citizen_info_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondary_dark" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/deputy_appeal_citizen_info_info_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout><!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/layout/deputy_main_appeal_citizen_info.xml -->

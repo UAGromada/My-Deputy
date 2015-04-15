@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:padding="4dp"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <Button
+        android:id="@+id/load_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/load_retry"
+        android:background="@android:color/transparent"
+        android:textColor="@color/main"
+        android:textAllCaps="true"
+        android:padding="12dp"
+        />
+</merge><!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/layout/simple_load_layout.xml -->

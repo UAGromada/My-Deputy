@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="ExpandableTextView">
+		<attr name="trim_length" format="integer" />
+		<attr name="android_text" format="string" />
+		<attr name="span_length" format="integer" />
+		<attr name="spannable" format="boolean" />
+</declare-styleable>    
+</resources>

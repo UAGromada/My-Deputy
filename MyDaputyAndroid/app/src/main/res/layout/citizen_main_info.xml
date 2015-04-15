@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/citizen_deputy_info_pager">
+
+
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_height="56dp"
+            android:layout_width="match_parent"
+            android:id="@+id/deputy_appeal_title"
+            android:paddingBottom="16dp"
+            android:layout_gravity="top"
+            android:background="@color/main"
+            style="@style/PagerTitleStrip"
+            />
+    </android.support.v4.view.ViewPager>
+
+    <com.zeus.android.mydeputy.app.ui.ErrorLayout
+        android:id="@+id/error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/toolbar_dropshadow"
+        android:layout_marginTop="56dp" />
+</FrameLayout>

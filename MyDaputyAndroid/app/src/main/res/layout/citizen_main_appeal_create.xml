@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <View
+        android:id="@+id/statusBarBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zeus.android.mydeputy.app.ui.ScrollViewWithVerticalScrollables
+            android:id="@+id/deputy_appeals_add_scrollcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp">
+
+                <EditText
+                    android:id="@+id/deputy_appeals_add_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/add_appeal_header_bottomargim"
+                    android:maxLines="2"
+                    android:minLines="2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:hint="@string/txt_citizen_appeal_new_title"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:textSize="26sp"/>
+
+                <EditText
+                    android:id="@+id/deputy_appeals_add_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minLines="2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:hint="@string/txt_citizen_appeal_new_text"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp" />
+            </LinearLayout>
+        </com.zeus.android.mydeputy.app.ui.ScrollViewWithVerticalScrollables>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/toolbar_dropshadow" />
+    </FrameLayout>
+
+</LinearLayout>

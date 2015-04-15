@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="viewOrDeleteMenuItems" >
+        <item>Проглянути</item>
+        <item>Видалити</item>
+    </string-array>
+</resources>

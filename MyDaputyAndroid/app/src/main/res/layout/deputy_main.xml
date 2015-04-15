@@ -1,0 +1,59 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zeus.android.mydeputy.app.deputy.DeputyMainActivity"
+    android:background="@color/background">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="start"
+        >
+
+        <FrameLayout
+            android:id="@+id/fragment_navigation_drawer_container"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"/>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <View
+                    android:id="@+id/statusBarBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+                <include
+                    android:id="@+id/tool_bar"
+                    layout="@layout/tool_bar" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/citizen_main_fragments_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="visible"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/toolbar_dropshadow"
+                android:id="@+id/shadow"/>
+        </FrameLayout>
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</FrameLayout>

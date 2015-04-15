@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/login_img_email"
+                android:src="@drawable/ic_communication_email"
+                android:layout_marginRight="26dp" />
+
+            <EditText
+                android:id="@+id/edit_log_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_email"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:paddingRight="16dp"
+                android:textColor="@color/secondary_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/login_img_password"
+                android:src="@drawable/ic_action_lock"
+                android:layout_marginRight="26dp" />
+
+            <EditText
+                android:id="@+id/edit_log_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:paddingRight="16dp"
+                android:textColor="@color/secondary_dark" />
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_stay_login"
+            android:id="@+id/register_save"
+            android:layout_marginLeft="56dp"
+            android:textColor="@color/secondary"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="32dp">
+
+            <Button
+                android:id="@+id/button_log_login"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/button_login_text"
+                android:background="@drawable/btn_blue"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@android:color/white"
+                android:textSize="12dp"
+                android:singleLine="true"
+                android:layout_marginRight="8dp" />
+
+            <Button
+                android:id="@+id/link_to_register"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/button_reg_text"
+                android:background="@android:color/transparent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textColor="@color/main"
+                android:textSize="12dp"
+                android:singleLine="true"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

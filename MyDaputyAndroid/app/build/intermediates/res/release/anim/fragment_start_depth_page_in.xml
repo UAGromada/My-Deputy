@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<scale 
+		   android:startOffset="@android:integer/config_longAnimTime"
+		   android:fromXScale="60%p"
+	       android:toXScale="100%p"
+	       android:fromYScale="60%p"
+	       android:toYScale="100%p"
+	       android:pivotX="50%p"
+	       android:pivotY="50%p"
+	       android:duration="@android:integer/config_longAnimTime" />
+
+	<alpha android:startOffset="@android:integer/config_longAnimTime"
+		   android:fromAlpha="0"
+	       android:toAlpha="1.0"
+	       android:duration="@android:integer/config_longAnimTime"/>
+
+</set><!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/anim/fragment_start_depth_page_in.xml -->

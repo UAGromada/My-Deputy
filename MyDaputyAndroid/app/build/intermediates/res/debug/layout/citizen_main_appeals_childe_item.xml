@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/deputy_appeals_rate_appeals_child_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingRight="16dp"
+        android:paddingLeft="72dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="72dp"
+        android:paddingRight="16dp">
+
+        <RatingBar
+            android:id="@+id/deputy_appeals_rate_appeals_child_item_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.1"
+            style="?android:attr/ratingBarStyleSmall"/>
+
+        <ImageButton
+            android:id="@+id/deputy_appeals_rate_appeals_child_item_rate_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="visible"
+            android:textColor="@color/main_light"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_action_action_done_gray" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/secondary_light"></FrameLayout>
+</LinearLayout>
+<!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/layout/citizen_main_appeals_childe_item.xml -->

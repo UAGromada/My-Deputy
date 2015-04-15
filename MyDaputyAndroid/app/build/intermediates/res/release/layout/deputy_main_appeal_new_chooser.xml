@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_white_with_corners"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:minWidth="260dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/txt_appeal_chooser"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/secondary_dark" />
+
+    <RadioGroup
+        android:id="@+id/deputy_appeal_new_chooser_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/deputy_appeal_new_chooser_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:text="@string/txt_cancel"
+            android:textColor="@color/secondary_dark" />
+
+        <Button
+            android:id="@+id/deputy_appeal_new_chooser_btn_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingLeft="12dp"
+            android:paddingRight="13dp"
+            android:text="@string/btn_choose"
+            android:textColor="@color/main" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/layout/deputy_main_appeal_new_chooser.xml -->

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.zeus.android.mydeputy.app.ui.ErrorLayout
+                    android:id="@+id/error_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/info_mail_img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="26dp"
+                            android:src="@drawable/ic_communication_email_blue" />
+
+                        <EditText
+                            android:id="@+id/info_mail"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/text_email"
+                            android:inputType="textEmailAddress"
+                            android:paddingRight="16dp"
+                            android:singleLine="true"
+                            android:textColor="@color/secondary_dark" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/info_phone_img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="26dp"
+                            android:src="@drawable/ic_communication_call_blue" />
+
+                        <EditText
+                            android:id="@+id/info_phone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/text_phone_number"
+                            android:inputType="textEmailAddress"
+                            android:paddingRight="16dp"
+                            android:singleLine="true"
+                            android:textColor="@color/secondary_dark" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/info_address_img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="26dp"
+                            android:src="@drawable/ic_communication_business_blue" />
+
+                        <EditText
+                            android:id="@+id/info_address"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/text_office"
+                            android:inputType="textEmailAddress"
+                            android:paddingRight="16dp"
+                            android:singleLine="true"
+                            android:textColor="@color/secondary_dark" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/info_programme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:hint="@string/text_deputy_program"
+                        android:minLines="2"
+                        android:textColor="@color/secondary_dark" />
+
+                    <EditText
+                        android:id="@+id/info_promises"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="16dp"
+                        android:hint="@string/text_deputy_promises"
+                        android:minLines="2"
+                        android:textColor="@color/secondary_dark" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/info_action_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_content_save"
+            fab:fab_colorNormal="@color/main"
+            fab:fab_colorPressed="@color/main_dark"
+            fab:fab_colorRipple="@color/main_dark" />
+
+    </FrameLayout>
+
+</LinearLayout>

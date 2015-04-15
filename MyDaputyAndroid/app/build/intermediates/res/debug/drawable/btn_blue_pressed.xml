@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/main_dark"/>
+    <corners android:radius="2dp" />
+    <padding android:bottom="8dp" android:top="8dp"/>
+</shape><!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/drawable/btn_blue_pressed.xml -->

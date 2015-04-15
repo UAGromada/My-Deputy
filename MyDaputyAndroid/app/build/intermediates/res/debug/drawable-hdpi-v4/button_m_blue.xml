@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/disabled_blue" android:state_enabled="false"/>
+    <item android:drawable="@drawable/pressed_blue" android:state_pressed="true"/>
+    <item android:drawable="@drawable/normal_blue"/>
+
+</selector><!-- From: file:/Users/admin/AndroidStudioProjects/Deputy/MyDaputyAS/app/src/main/res/drawable-hdpi/button_m_blue.xml -->
