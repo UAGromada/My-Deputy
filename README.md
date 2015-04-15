@@ -2,7 +2,6 @@
 
 License
 =====================
-My Deputy is made available under the Apache License, Version 2.0: (http://www.apache.org/licenses/LICENSE-2.0):
 
 <pre>
 Copyright 2015 UA Gromada. All rights reserved.
